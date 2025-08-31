@@ -1,28 +1,28 @@
-print("HELLO WORLD")
-print("1.Add two number ")
-print("2.Find the area to circle")
-print("3.Convert to Celsius -->Fahrenheit")
+print("Mini Script for Practice")
+print("1. Add two numbers")
+print("2. Find area of a circle")
+print("3. Convert Celsius -> Fahrenheit")
+print("4. Exit")
+
 while True:
-        c=int(input("ENTER :"))
-        try:
-            if c==1:
-                e=float(input("ENTER NO 1:"))
-                r=float(input("ENTER NO 2:"))
-                print("ANswer id:",e+r)
-        except ValueError:
-            print("Please do valid opertaion")        
-        try:
-            if c==2:
-                r=float(input("Enter Radius:"))
-                print("Area is :",r*r*3.14159)
-        except ValueError:
-            print("Please do valid opertaion") 
-        try:
-            if c==3:
-                y=float(input("Enter tempertare:"))
-                print("Answer is:",(c*9/5)+32)
-        except ValueError:
-            print("Please do valid opertaion") 
+    choice = int(input("\nEnter your choice (1-4): "))
+    if choice == 1:
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
+        print("Answer is:", num1 + num2)
+    elif choice == 2:
+        r = float(input("Enter radius of circle: "))
+        print("Area of circle is:", 3.14159 * r * r)
+    elif choice == 3:
+        c = float(input("Enter temperature in Celsius: "))
+        f = (c * 9/5) + 32
+        print("Temperature in Fahrenheit is:", f, "F")
+    elif choice == 4:
+        print("Exiting program... Goodbye ")
+        break
+    else:
+        print("INVALID OPERATION! Please choose 1-4.")
+
 
 
 
