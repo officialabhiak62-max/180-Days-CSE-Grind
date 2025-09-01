@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;}
+    .sighupbox {
+        background-color: rgb(255, 255, 255);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        width: 300px;}
+    button:hover {
+      background: #0056b3;}
+    h2{
+        text-align: center;}
+    input{
+        width:90%;
+        border: 1px solid #796c6c;
+        margin: 6px;
+        border-radius: 4px;
+        padding: 10px;
+    }   
+    button{
+        background-color: rgb(82, 214, 231);
+        border-radius: 5px;
+        width: 100%;
+        padding: 1pc;
+        font-size: 16px;
+        color: white;}
+    p{
+        text-align: center;
+    } 
+</style>
+</head>
+<body> 
+    <div class="sighupbox">
+        <h2>Sighup</h2>
+         <form action="signup.php" method="post">
+      <input type="text" name="fullname" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+      <button type="submit">Create Account</button>
+      <p>Already have account?   <a href="http://127.0.0.1:5500/desktop-tutorial/s.html" >Login</a> 
+      </a>
+      </p>
+    </form>
+    </div>
+    
+</body>
+</html>
