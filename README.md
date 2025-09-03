@@ -1,4 +1,4 @@
-# 180-Days-CSE-Grind
+# 80-Days-CSE-Grind
 When I started learning to code, everything felt new and confusing. Even simple steps like installing a compiler, configuring GitHub, or fixing input errors in Python took time. Sometimes my laptop froze, sometimes Git gave me errors like “not a git repository”, and sometimes HackerRank questions seemed too difficult.
 
 But instead of giving up, I kept going.
